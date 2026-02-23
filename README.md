@@ -2,6 +2,7 @@
 
 Este proyecto explora técnicas de **Aprendizaje Automático No Supervisado**, usando **PCA** y **K-Means**, y se compara con un modelo supervisado (**Random Forest**) para clasificar hongos como **comestibles (e)** o **venenosos (p)**.
 
+> 🧑‍💻 Este proyecto fue realizado **en solitario**, siguiendo buenas prácticas de control de versiones con Git.
 ---
 
 ## 📂 Dataset
@@ -68,7 +69,18 @@ El flujo ETL realizado fue:
 - **Completitud:** 0.407  
 
 ---
+## 🗂️ Estrategia de Ramas Git
 
+El proyecto se desarrolló con la siguiente estructura de ramas:
+
+- `feature/setup` → creación de la estructura de carpetas y archivos iniciales  
+- `feature/eda` → análisis exploratorio de datos  
+- `feature/cleaning` → limpieza y feature engineering (`has_odor`)  
+- `feature/model` → entrenamiento y evaluación de Random Forest + PCA, y K-Means  
+- `develop` → integración de todas las funcionalidades y generación del informe ejecutivo  
+
+> 💡 Esto permitió un flujo de trabajo organizado y modular, facilitando pruebas y seguimiento de cambios.
+---
 ## 📸 Reporte Visual
 
 El informe ejecutivo en PDF incluye todas las gráficas y análisis:
