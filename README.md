@@ -100,7 +100,7 @@ project-9-Pablo-Rodriguez/
 │ ├─ raw/
 │ │ └─ mushrooms.csv
 │ └─ clean/
-│   └─ clean_mushrooms.csv
+│   ├─ clean_mushrooms.csv
 │   └─ clean_mushrooms.parquet
 │
 ├─ notebooks/
